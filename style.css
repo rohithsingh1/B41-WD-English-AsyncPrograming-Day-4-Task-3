@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,400&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+i.fa-solid {
+    cursor: pointer;
+}
+
+
+input[type='text'] {
+    border-width: 0.2rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.card{
+    padding: 0px;
+    width: 15rem;
+}
+
+.card img {
+    margin-top: 0px !important;
+    height: 19rem;
+    margin: auto;
+}
+
+.card-body {
+    padding: 0.3rem 0px 0px 0px;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.table {
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.table th{
+    padding: 0px !important;
+}
+
+.table td{
+    padding: 0px !important;
+    text-align: center;
+    font-weight: 600;
+}
+
+.table td i.fa-arrow-up {
+    color: #028446;
+}
+
+.table td i.fa-arrow-down {
+    color: #7f0909;
+}
+
+@media (max-width:649px){
+    div.col.my-2{
+        margin: 0.5rem auto !important;
+        width: fit-content !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
